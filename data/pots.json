@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Bonsai Pot 1",
         "code": "W66",
-        "dimensions": "30h" x 96w"",
+        "dimensions": "96mm x 30mm",
         "price": "60.00",
         "image": "images/pot-1.jpg.png",
         "description": "Classic bonsai pot with glazed finish"
@@ -12,7 +12,7 @@
         "id": 2,
         "name": "Bonsai Pot 2",
         "code": "W68",
-        "dimensions": "5\" x 4.5\"",
+        "dimensions": "59mm x 76mm",
         "price": "18.99",
         "image": "images/pot-2.jpg.png",
         "description": "Handcrafted clay pot with natural texture"
