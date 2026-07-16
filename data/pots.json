@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Bonsai Pot 1",
         "code": "W66",
-        "dimensions": "30h" x 96w",
+        "dimensions": "30h" x 96w"",
         "price": "60.00",
         "image": "images/pot-1.jpg.png",
         "description": "Classic bonsai pot with glazed finish"
@@ -21,7 +21,7 @@
         "id": 3,
         "name": "Bonsai Pot 3",
         "code": "W70",
-        "dimensions": "59w" x 76h",
+        "dimensions": "59w" x 76h"",
         "price": "60",
         "image": "images/pot-3.jpg.png",
         "description": "Modern ceramic pot for any bonsai style"
