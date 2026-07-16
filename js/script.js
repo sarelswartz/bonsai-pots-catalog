@@ -43,22 +43,17 @@ function filterAndRender() {
     const searchValue = document.getElementById('searchInput').value.toLowerCase();
     const sortValue = document.getElementById('sortSelect').value;
 
-    // Filter pots
+    // Filter pots based on code or dimensions
     filteredPots = allPots.filter(pot => {
         const matchesSearch = 
-            pot.name.toLowerCase().includes(searchValue) ||
             pot.code.toLowerCase().includes(searchValue) ||
             (pot.dimensions && pot.dimensions.toLowerCase().includes(searchValue));
         return matchesSearch;
     });
 
-    // Sort pots
+    // Sort pots by price
     filteredPots.sort((a, b) => {
         switch (sortValue) {
-            case 'name-asc':
-                return a.name.localeCompare(b.name);
-            case 'name-desc':
-                return b.name.localeCompare(a.name);
             case 'price-asc':
                 return parsePrice(a.price) - parsePrice(b.price);
             case 'price-desc':
@@ -74,7 +69,6 @@ function filterAndRender() {
 // Parse price string to number (handles both "$24.99" and "R 250" formats)
 function parsePrice(priceStr) {
     if (typeof priceStr !== 'string') return parseFloat(priceStr);
-    // Remove currency symbols and spaces, convert to float
     return parseFloat(priceStr.replace(/[^\d.]/g, '')) || 0;
 }
 
@@ -111,7 +105,7 @@ function renderGallery() {
     });
 }
 
-// Create a single gallery card with full product details
+// Create a single gallery card with product details (Name and Description elements removed)
 function createGalleryItem(pot, index) {
     const whatsappUrl = generateWhatsAppUrl(pot);
     
@@ -120,7 +114,7 @@ function createGalleryItem(pot, index) {
     card.style.animationDelay = `${index * 0.03}s`;
 
     const imageHtml = pot.image 
-        ? `<img src="${pot.image}" alt="${escapeHtml(pot.name)}" class="gallery-image" loading="lazy">`
+        ? `<img src="${pot.image}" alt="${escapeHtml(pot.code)}" class="gallery-image" loading="lazy">`
         : `<div class="gallery-placeholder">🍲</div>`;
 
     const dimensionsDisplay = pot.dimensions ? `<span class="pot-dimensions">📐 ${escapeHtml(pot.dimensions)}</span>` : '';
@@ -132,9 +126,7 @@ function createGalleryItem(pot, index) {
             </div>
         </a>
         <div class="gallery-content">
-            <h3 class="pot-name">${escapeHtml(pot.name)}</h3>
             <p class="pot-code">Code: ${escapeHtml(pot.code)}</p>
-            ${pot.description ? `<p class="pot-description">${escapeHtml(pot.description)}</p>` : ''}
             <div class="pot-specs">
                 ${dimensionsDisplay}
                 <span class="pot-price">${formatPrice(pot.price)}</span>
