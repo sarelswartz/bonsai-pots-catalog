@@ -2,6 +2,8 @@
 // BONSAI POTS CATALOG - SCRIPT
 // ===========================
 
+const WHATSAPP_NUMBER = '27791576981';
+
 let allPots = [];
 let filteredPots = [];
 
@@ -58,15 +60,35 @@ function filterAndRender() {
             case 'name-desc':
                 return b.name.localeCompare(a.name);
             case 'price-asc':
-                return parseFloat(a.price) - parseFloat(b.price);
+                return parsePrice(a.price) - parsePrice(b.price);
             case 'price-desc':
-                return parseFloat(b.price) - parseFloat(a.price);
+                return parsePrice(b.price) - parsePrice(a.price);
             default:
                 return 0;
         }
     });
 
     renderGallery();
+}
+
+// Parse price string to number (handles both "$24.99" and "R 250" formats)
+function parsePrice(priceStr) {
+    if (typeof priceStr !== 'string') return parseFloat(priceStr);
+    // Remove currency symbols and spaces, convert to float
+    return parseFloat(priceStr.replace(/[^\d.]/g, '')) || 0;
+}
+
+// Format price for display (convert to Rands format)
+function formatPrice(priceStr) {
+    const price = parsePrice(priceStr);
+    return `R ${price.toFixed(2)}`;
+}
+
+// Generate WhatsApp inquiry URL
+function generateWhatsAppUrl(pot) {
+    const message = `Hi! I am interested in this pot:\n*Code:* ${pot.code}\n*Price:* ${formatPrice(pot.price)}\n*Dimensions:* ${pot.dimensions}`;
+    const encodedMessage = encodeURIComponent(message);
+    return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`;
 }
 
 // Render gallery images to the DOM
@@ -89,20 +111,41 @@ function renderGallery() {
     });
 }
 
-// Create a single gallery image item
+// Create a single gallery card with full product details
 function createGalleryItem(pot, index) {
-    const item = document.createElement('div');
-    item.className = 'gallery-item';
-    item.style.animationDelay = `${index * 0.03}s`;
-    item.setAttribute('title', `${pot.name} - $${parseFloat(pot.price).toFixed(2)}`);
+    const whatsappUrl = generateWhatsAppUrl(pot);
+    
+    const card = document.createElement('div');
+    card.className = 'gallery-item';
+    card.style.animationDelay = `${index * 0.03}s`;
 
     const imageHtml = pot.image 
         ? `<img src="${pot.image}" alt="${escapeHtml(pot.name)}" class="gallery-image" loading="lazy">`
         : `<div class="gallery-placeholder">🍲</div>`;
 
-    item.innerHTML = imageHtml;
+    const dimensionsDisplay = pot.dimensions ? `<span class="pot-dimensions">📐 ${escapeHtml(pot.dimensions)}</span>` : '';
 
-    return item;
+    card.innerHTML = `
+        <a href="${whatsappUrl}" target="_blank" class="gallery-image-link">
+            <div class="gallery-image-container">
+                ${imageHtml}
+            </div>
+        </a>
+        <div class="gallery-content">
+            <h3 class="pot-name">${escapeHtml(pot.name)}</h3>
+            <p class="pot-code">Code: ${escapeHtml(pot.code)}</p>
+            ${pot.description ? `<p class="pot-description">${escapeHtml(pot.description)}</p>` : ''}
+            <div class="pot-specs">
+                ${dimensionsDisplay}
+                <span class="pot-price">${formatPrice(pot.price)}</span>
+            </div>
+            <a href="${whatsappUrl}" target="_blank" class="whatsapp-button">
+                💬 Inquire on WhatsApp
+            </a>
+        </div>
+    `;
+
+    return card;
 }
 
 // Escape HTML special characters to prevent XSS
