@@ -14,7 +14,7 @@ async function initializeCatalog() {
         }
         allPots = await response.json();
         filteredPots = [...allPots];
-        renderPots();
+        renderGallery();
         setupEventListeners();
     } catch (error) {
         console.error('Error loading catalog:', error);
@@ -66,11 +66,11 @@ function filterAndRender() {
         }
     });
 
-    renderPots();
+    renderGallery();
 }
 
-// Render pots to the DOM
-function renderPots() {
+// Render gallery images to the DOM
+function renderGallery() {
     const container = document.getElementById('potsContainer');
     const noResults = document.getElementById('noResults');
 
@@ -84,48 +84,25 @@ function renderPots() {
     noResults.style.display = 'none';
 
     filteredPots.forEach((pot, index) => {
-        const potCard = createPotCard(pot, index);
-        container.appendChild(potCard);
+        const galleryItem = createGalleryItem(pot, index);
+        container.appendChild(galleryItem);
     });
 }
 
-// Create a single pot card element
-function createPotCard(pot, index) {
-    const card = document.createElement('div');
-    card.className = 'pot-card';
-    card.style.animationDelay = `${index * 0.05}s`;
+// Create a single gallery image item
+function createGalleryItem(pot, index) {
+    const item = document.createElement('div');
+    item.className = 'gallery-item';
+    item.style.animationDelay = `${index * 0.03}s`;
+    item.setAttribute('title', `${pot.name} - $${parseFloat(pot.price).toFixed(2)}`);
 
     const imageHtml = pot.image 
-        ? `<img src="${pot.image}" alt="${pot.name}" class="pot-image" loading="lazy">`
-        : `<div class="pot-placeholder">🍲</div>`;
+        ? `<img src="${pot.image}" alt="${escapeHtml(pot.name)}" class="gallery-image" loading="lazy">`
+        : `<div class="gallery-placeholder">🍲</div>`;
 
-    const dimensionsHtml = pot.dimensions
-        ? `<div class="pot-detail-item">
-               <span class="pot-detail-label">Dimensions:</span>
-               <span class="pot-detail-value">${pot.dimensions}</span>
-           </div>`
-        : '';
+    item.innerHTML = imageHtml;
 
-    card.innerHTML = `
-        <div class="pot-image-container">
-            ${imageHtml}
-        </div>
-        <div class="pot-content">
-            <div class="pot-header">
-                <div class="pot-name">${escapeHtml(pot.name)}</div>
-                ${pot.code ? `<div class="pot-code">Code: ${escapeHtml(pot.code)}</div>` : ''}
-            </div>
-            <div class="pot-details">
-                ${dimensionsHtml}
-                ${pot.description ? `<p>${escapeHtml(pot.description)}</p>` : ''}
-            </div>
-            <div class="pot-price">
-                <span class="pot-price-currency">$</span>${parseFloat(pot.price).toFixed(2)}
-            </div>
-        </div>
-    `;
-
-    return card;
+    return item;
 }
 
 // Escape HTML special characters to prevent XSS
