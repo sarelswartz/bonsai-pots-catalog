@@ -1,56 +1,389 @@
 [
     {
         "id": 1,
-        "name": "Classic Ceramic Pot",
+        "name": "Bonsai Pot 1",
         "code": "POT-001",
         "dimensions": "6\" x 5\"",
         "price": "24.99",
         "image": "images/pot-1.jpg",
-        "description": "Traditional ceramic bonsai pot with glazed finish"
+        "description": "Classic bonsai pot with glazed finish"
     },
     {
         "id": 2,
-        "name": "Rustic Clay Pot",
+        "name": "Bonsai Pot 2",
         "code": "POT-002",
         "dimensions": "5\" x 4.5\"",
         "price": "18.99",
         "image": "images/pot-2.jpg",
-        "description": "Handcrafted rustic clay pot with natural texture"
+        "description": "Handcrafted clay pot with natural texture"
     },
     {
         "id": 3,
-        "name": "Elegant White Pot",
+        "name": "Bonsai Pot 3",
         "code": "POT-003",
         "dimensions": "7\" x 6\"",
         "price": "32.99",
         "image": "images/pot-3.jpg",
-        "description": "Modern white ceramic pot perfect for any bonsai style"
+        "description": "Modern ceramic pot for any bonsai style"
     },
     {
         "id": 4,
-        "name": "Rectangular Pot",
+        "name": "Bonsai Pot 4",
         "code": "POT-004",
         "dimensions": "8\" x 5\" x 3.5\"",
         "price": "28.99",
         "image": "images/pot-4.jpg",
-        "description": "Classic rectangular design ideal for formal upright styles"
+        "description": "Rectangular design ideal for formal styles"
     },
     {
         "id": 5,
-        "name": "Small Shohin Pot",
+        "name": "Bonsai Pot 5",
         "code": "POT-005",
         "dimensions": "3.5\" x 3\"",
         "price": "14.99",
         "image": "images/pot-5.jpg",
-        "description": "Perfect for small shohin and mame bonsai trees"
+        "description": "Perfect for small shohin and mame trees"
     },
     {
         "id": 6,
-        "name": "Large Display Pot",
+        "name": "Bonsai Pot 6",
         "code": "POT-006",
         "dimensions": "10\" x 8\"",
         "price": "45.99",
         "image": "images/pot-6.jpg",
-        "description": "Spacious pot suitable for larger specimen bonsai"
+        "description": "Spacious pot suitable for larger specimens"
+    },
+    {
+        "id": 7,
+        "name": "Bonsai Pot 7",
+        "code": "POT-007",
+        "dimensions": "6.5\" x 5.5\"",
+        "price": "26.99",
+        "image": "images/pot-7.jpg",
+        "description": "Elegant white ceramic with subtle details"
+    },
+    {
+        "id": 8,
+        "name": "Bonsai Pot 8",
+        "code": "POT-008",
+        "dimensions": "5.5\" x 4.5\"",
+        "price": "20.99",
+        "image": "images/pot-8.jpg",
+        "description": "Rustic earthenware pot with classic appeal"
+    },
+    {
+        "id": 9,
+        "name": "Bonsai Pot 9",
+        "code": "POT-009",
+        "dimensions": "7.5\" x 6.5\"",
+        "price": "35.99",
+        "image": "images/pot-9.jpg",
+        "description": "Premium glazed finish with protective coating"
+    },
+    {
+        "id": 10,
+        "name": "Bonsai Pot 10",
+        "code": "POT-010",
+        "dimensions": "4\" x 3.5\"",
+        "price": "16.99",
+        "image": "images/pot-10.jpg",
+        "description": "Compact size for indoor display"
+    },
+    {
+        "id": 11,
+        "name": "Bonsai Pot 11",
+        "code": "POT-011",
+        "dimensions": "9\" x 7\"",
+        "price": "42.99",
+        "image": "images/pot-11.jpg",
+        "description": "Deep pot ideal for large root systems"
+    },
+    {
+        "id": 12,
+        "name": "Bonsai Pot 12",
+        "code": "POT-012",
+        "dimensions": "6\" x 6\"",
+        "price": "27.99",
+        "image": "images/pot-12.jpg",
+        "description": "Square design perfect for formal upright trees"
+    },
+    {
+        "id": 13,
+        "name": "Bonsai Pot 13",
+        "code": "POT-013",
+        "dimensions": "5\" x 4\"",
+        "price": "19.99",
+        "image": "images/pot-13.jpg",
+        "description": "Lightweight ceramic ideal for travel"
+    },
+    {
+        "id": 14,
+        "name": "Bonsai Pot 14",
+        "code": "POT-014",
+        "dimensions": "8\" x 6\" x 4\"",
+        "price": "34.99",
+        "image": "images/pot-14.jpg",
+        "description": "Shallow pot perfect for cascade styles"
+    },
+    {
+        "id": 15,
+        "name": "Bonsai Pot 15",
+        "code": "POT-015",
+        "dimensions": "7\" x 5.5\"",
+        "price": "29.99",
+        "image": "images/pot-15.jpg",
+        "description": "Traditional Japanese design with authentic finish"
+    },
+    {
+        "id": 16,
+        "name": "Bonsai Pot 16",
+        "code": "POT-016",
+        "dimensions": "4.5\" x 4\"",
+        "price": "17.99",
+        "image": "images/pot-16.jpg",
+        "description": "Oval shape provides excellent stability"
+    },
+    {
+        "id": 17,
+        "name": "Bonsai Pot 17",
+        "code": "POT-017",
+        "dimensions": "9.5\" x 7.5\"",
+        "price": "48.99",
+        "image": "images/pot-17.jpg",
+        "description": "Extra large container for exhibition trees"
+    },
+    {
+        "id": 18,
+        "name": "Bonsai Pot 18",
+        "code": "POT-018",
+        "dimensions": "5.5\" x 5\"",
+        "price": "22.99",
+        "image": "images/pot-18.jpg",
+        "description": "Round shape complements informal styles"
+    },
+    {
+        "id": 19,
+        "name": "Bonsai Pot 19",
+        "code": "POT-019",
+        "dimensions": "6.5\" x 4.5\"",
+        "price": "25.99",
+        "image": "images/pot-19.jpg",
+        "description": "Rectangular with flowing curves"
+    },
+    {
+        "id": 20,
+        "name": "Bonsai Pot 20",
+        "code": "POT-020",
+        "dimensions": "3.5\" x 2.5\"",
+        "price": "12.99",
+        "image": "images/pot-20.jpg",
+        "description": "Mini pot perfect for tiny bonsai"
+    },
+    {
+        "id": 21,
+        "name": "Bonsai Pot 21",
+        "code": "POT-021",
+        "dimensions": "8.5\" x 6.5\"",
+        "price": "39.99",
+        "image": "images/pot-21.jpg",
+        "description": "Premium quality handmade by artisans"
+    },
+    {
+        "id": 22,
+        "name": "Bonsai Pot 22",
+        "code": "POT-022",
+        "dimensions": "5\" x 5\"",
+        "price": "21.99",
+        "image": "images/pot-22.jpg",
+        "description": "Perfect balance of form and function"
+    },
+    {
+        "id": 23,
+        "name": "Bonsai Pot 23",
+        "code": "POT-023",
+        "dimensions": "7\" x 5\"",
+        "price": "30.99",
+        "image": "images/pot-23.jpg",
+        "description": "Durable glazed surface resists weathering"
+    },
+    {
+        "id": 24,
+        "name": "Bonsai Pot 24",
+        "code": "POT-024",
+        "dimensions": "6\" x 4.5\"",
+        "price": "23.99",
+        "image": "images/pot-24.jpg",
+        "description": "Versatile size suitable for most tree species"
+    },
+    {
+        "id": 25,
+        "name": "Bonsai Pot 25",
+        "code": "POT-025",
+        "dimensions": "4.5\" x 3.5\"",
+        "price": "15.99",
+        "image": "images/pot-25.jpg",
+        "description": "Affordable quality for beginners"
+    },
+    {
+        "id": 26,
+        "name": "Bonsai Pot 26",
+        "code": "POT-026",
+        "dimensions": "9\" x 6.5\"",
+        "price": "44.99",
+        "image": "images/pot-26.jpg",
+        "description": "Substantial container for mature trees"
+    },
+    {
+        "id": 27,
+        "name": "Bonsai Pot 27",
+        "code": "POT-027",
+        "dimensions": "5.5\" x 5.5\"",
+        "price": "24.99",
+        "image": "images/pot-27.jpg",
+        "description": "Square design offers modern aesthetic"
+    },
+    {
+        "id": 28,
+        "name": "Bonsai Pot 28",
+        "code": "POT-028",
+        "dimensions": "7.5\" x 5.5\"",
+        "price": "33.99",
+        "image": "images/pot-28.jpg",
+        "description": "Elongated shape ideal for slanting trees"
+    },
+    {
+        "id": 29,
+        "name": "Bonsai Pot 29",
+        "code": "POT-029",
+        "dimensions": "6.5\" x 5\"",
+        "price": "28.99",
+        "image": "images/pot-29.jpg",
+        "description": "Multi-purpose pot for various styles"
+    },
+    {
+        "id": 30,
+        "name": "Bonsai Pot 30",
+        "code": "POT-030",
+        "dimensions": "4\" x 4\"",
+        "price": "14.99",
+        "image": "images/pot-30.jpg",
+        "description": "Square compact design"
+    },
+    {
+        "id": 31,
+        "name": "Bonsai Pot 31",
+        "code": "POT-031",
+        "dimensions": "8.5\" x 7\"",
+        "price": "41.99",
+        "image": "images/pot-31.jpg",
+        "description": "Large exhibition quality pot"
+    },
+    {
+        "id": 32,
+        "name": "Bonsai Pot 32",
+        "code": "POT-032",
+        "dimensions": "5\" x 4.5\"",
+        "price": "20.99",
+        "image": "images/pot-32.jpg",
+        "description": "Standard size for most collectors"
+    },
+    {
+        "id": 33,
+        "name": "Bonsai Pot 33",
+        "code": "POT-033",
+        "dimensions": "6\" x 5.5\"",
+        "price": "26.99",
+        "image": "images/pot-33.jpg",
+        "description": "Versatile rectangular with rounded edges"
+    },
+    {
+        "id": 34,
+        "name": "Bonsai Pot 34",
+        "code": "POT-034",
+        "dimensions": "7\" x 6.5\"",
+        "price": "31.99",
+        "image": "images/pot-34.jpg",
+        "description": "Premium ceramic with fine glaze"
+    },
+    {
+        "id": 35,
+        "name": "Bonsai Pot 35",
+        "code": "POT-035",
+        "dimensions": "5.5\" x 4\"",
+        "price": "19.99",
+        "image": "images/pot-35.jpg",
+        "description": "Classic oval shape"
+    },
+    {
+        "id": 36,
+        "name": "Bonsai Pot 36",
+        "code": "POT-036",
+        "dimensions": "9\" x 7.5\"",
+        "price": "46.99",
+        "image": "images/pot-36.jpg",
+        "description": "Large format for specimen trees"
+    },
+    {
+        "id": 37,
+        "name": "Bonsai Pot 37",
+        "code": "POT-037",
+        "dimensions": "6\" x 5\"",
+        "price": "25.99",
+        "image": "images/pot-37.jpg",
+        "description": "Timeless design with modern craftsmanship"
+    },
+    {
+        "id": 38,
+        "name": "Bonsai Pot 38",
+        "code": "POT-038",
+        "dimensions": "4.5\" x 3.5\"",
+        "price": "16.99",
+        "image": "images/pot-38.jpg",
+        "description": "Petite pot for delicate bonsai"
+    },
+    {
+        "id": 39,
+        "name": "Bonsai Pot 39",
+        "code": "POT-039",
+        "dimensions": "8\" x 6.5\"",
+        "price": "37.99",
+        "image": "images/pot-39.jpg",
+        "description": "Professional grade container"
+    },
+    {
+        "id": 40,
+        "name": "Bonsai Pot 40",
+        "code": "POT-040",
+        "dimensions": "5\" x 5.5\"",
+        "price": "23.99",
+        "image": "images/pot-40.jpg",
+        "description": "Slightly rectangular round shape"
+    },
+    {
+        "id": 41,
+        "name": "Bonsai Pot 41",
+        "code": "POT-041",
+        "dimensions": "7.5\" x 6\"",
+        "price": "32.99",
+        "image": "images/pot-41.jpg",
+        "description": "Sophisticated design for collectors"
+    },
+    {
+        "id": 42,
+        "name": "Bonsai Pot 42",
+        "code": "POT-042",
+        "dimensions": "6.5\" x 4\"",
+        "price": "27.99",
+        "image": "images/pot-42.jpg",
+        "description": "Elongated rectangular classic style"
+    },
+    {
+        "id": 43,
+        "name": "Bonsai Pot 43",
+        "code": "POT-043",
+        "dimensions": "5.5\" x 5.5\"",
+        "price": "22.99",
+        "image": "images/pot-43.jpg",
+        "description": "Versatile square pot for any occasion"
     }
 ]
