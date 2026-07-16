@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Classic Ceramic Pot",
+        "code": "POT-001",
+        "dimensions": "6\" x 5\"",
+        "price": "24.99",
+        "image": "images/pot-1.jpg",
+        "description": "Traditional ceramic bonsai pot with glazed finish"
+    },
+    {
+        "id": 2,
+        "name": "Rustic Clay Pot",
+        "code": "POT-002",
+        "dimensions": "5\" x 4.5\"",
+        "price": "18.99",
+        "image": "images/pot-2.jpg",
+        "description": "Handcrafted rustic clay pot with natural texture"
+    },
+    {
+        "id": 3,
+        "name": "Elegant White Pot",
+        "code": "POT-003",
+        "dimensions": "7\" x 6\"",
+        "price": "32.99",
+        "image": "images/pot-3.jpg",
+        "description": "Modern white ceramic pot perfect for any bonsai style"
+    },
+    {
+        "id": 4,
+        "name": "Rectangular Pot",
+        "code": "POT-004",
+        "dimensions": "8\" x 5\" x 3.5\"",
+        "price": "28.99",
+        "image": "images/pot-4.jpg",
+        "description": "Classic rectangular design ideal for formal upright styles"
+    },
+    {
+        "id": 5,
+        "name": "Small Shohin Pot",
+        "code": "POT-005",
+        "dimensions": "3.5\" x 3\"",
+        "price": "14.99",
+        "image": "images/pot-5.jpg",
+        "description": "Perfect for small shohin and mame bonsai trees"
+    },
+    {
+        "id": 6,
+        "name": "Large Display Pot",
+        "code": "POT-006",
+        "dimensions": "10\" x 8\"",
+        "price": "45.99",
+        "image": "images/pot-6.jpg",
+        "description": "Spacious pot suitable for larger specimen bonsai"
+    }
+]
