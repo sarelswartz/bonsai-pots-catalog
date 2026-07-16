@@ -19,6 +19,7 @@
     --success-color: #4caf50;
     --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     --shadow-hover: 0 8px 16px rgba(0, 0, 0, 0.15);
+    --whatsapp-green: #25d366;
 }
 
 html {
@@ -111,24 +112,45 @@ body {
 
 .image-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 24px;
     margin-bottom: 60px;
 }
 
 .gallery-item {
     background-color: var(--white);
-    border-radius: 8px;
+    border-radius: 12px;
     overflow: hidden;
     box-shadow: var(--shadow);
     transition: all 0.3s ease;
     cursor: pointer;
-    height: 250px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .gallery-item:hover {
-    transform: translateY(-6px);
+    transform: translateY(-8px);
     box-shadow: var(--shadow-hover);
+}
+
+/* Image Container */
+.gallery-image-container {
+    width: 100%;
+    height: 220px;
+    background-color: var(--light-bg);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.gallery-image-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
 }
 
 .gallery-image {
@@ -140,7 +162,7 @@ body {
 }
 
 .gallery-item:hover .gallery-image {
-    transform: scale(1.05);
+    transform: scale(1.08);
 }
 
 .gallery-placeholder {
@@ -152,6 +174,88 @@ body {
     justify-content: center;
     font-size: 3rem;
     color: var(--border-color);
+}
+
+/* Card Content */
+.gallery-content {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 8px;
+}
+
+.pot-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin: 0;
+    line-height: 1.3;
+}
+
+.pot-code {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    margin: 0;
+    font-style: italic;
+}
+
+.pot-description {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    margin: 0;
+    line-height: 1.4;
+    flex-grow: 1;
+}
+
+.pot-specs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 0;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    flex-wrap: wrap;
+}
+
+.pot-dimensions {
+    font-size: 0.9rem;
+    color: var(--text-dark);
+    font-weight: 500;
+}
+
+.pot-price {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--accent-color);
+}
+
+/* WhatsApp Button */
+.whatsapp-button {
+    display: inline-block;
+    background-color: var(--whatsapp-green);
+    color: var(--white);
+    padding: 12px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.whatsapp-button:hover {
+    background-color: #1fa855;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+}
+
+.whatsapp-button:active {
+    transform: translateY(0);
 }
 
 /* ===========================
@@ -193,12 +297,16 @@ body {
 /* Tablet: 3 columns */
 @media (max-width: 1024px) {
     .image-gallery {
-        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-        gap: 18px;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 20px;
     }
 
-    .gallery-item {
-        height: 220px;
+    .gallery-image-container {
+        height: 200px;
+    }
+
+    .pot-name {
+        font-size: 1.1rem;
     }
 }
 
@@ -225,12 +333,30 @@ body {
     }
 
     .image-gallery {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-        gap: 15px;
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 16px;
     }
 
-    .gallery-item {
-        height: 180px;
+    .gallery-image-container {
+        height: 160px;
+    }
+
+    .gallery-content {
+        padding: 14px;
+        gap: 6px;
+    }
+
+    .pot-name {
+        font-size: 1rem;
+    }
+
+    .pot-description {
+        font-size: 0.8rem;
+    }
+
+    .whatsapp-button {
+        font-size: 0.85rem;
+        padding: 10px 12px;
     }
 }
 
@@ -246,12 +372,46 @@ body {
     }
 
     .image-gallery {
-        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
         gap: 12px;
     }
 
-    .gallery-item {
+    .gallery-image-container {
         height: 140px;
+    }
+
+    .gallery-content {
+        padding: 12px;
+        gap: 5px;
+    }
+
+    .pot-name {
+        font-size: 0.95rem;
+    }
+
+    .pot-code {
+        font-size: 0.75rem;
+    }
+
+    .pot-description {
+        display: none;
+    }
+
+    .pot-specs {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+        padding: 8px 0;
+    }
+
+    .pot-price {
+        font-size: 1.1rem;
+    }
+
+    .whatsapp-button {
+        font-size: 0.8rem;
+        padding: 8px 10px;
+        margin-top: 6px;
     }
 }
 
