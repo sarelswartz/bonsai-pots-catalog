@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse our beautiful collection of bonsai pots">
+    <title>Bonsai Pots Catalog</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">🌿 Bonsai Pots Catalog</h1>
+            <p class="tagline">Premium handcrafted bonsai pots for your collection</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="filters">
+            <input 
+                type="text" 
+                id="searchInput" 
+                class="search-box" 
+                placeholder="Search by name or code..."
+                aria-label="Search pots"
+            >
+            <select id="sortSelect" class="sort-select" aria-label="Sort options">
+                <option value="name-asc">Sort by: Name (A-Z)</option>
+                <option value="name-desc">Sort by: Name (Z-A)</option>
+                <option value="price-asc">Sort by: Price (Low to High)</option>
+                <option value="price-desc">Sort by: Price (High to Low)</option>
+            </select>
+        </section>
+
+        <section id="potsContainer" class="pots-grid">
+            <!-- Pots will be loaded here by JavaScript -->
+        </section>
+
+        <section id="noResults" class="no-results" style="display: none;">
+            <p>No pots found matching your search. Try adjusting your filters.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Bonsai Pots Catalog. All rights reserved.</p>
+            <p>Contact us for custom orders and inquiries.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
