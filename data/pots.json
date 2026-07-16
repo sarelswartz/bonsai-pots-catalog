@@ -5,7 +5,7 @@
         "code": "POT-001",
         "dimensions": "6\" x 5\"",
         "price": "24.99",
-        "image": "images/pot-1.jpg",
+        "image": "images/pot-1.jpg.png",
         "description": "Classic bonsai pot with glazed finish"
     },
     {
@@ -14,7 +14,7 @@
         "code": "POT-002",
         "dimensions": "5\" x 4.5\"",
         "price": "18.99",
-        "image": "images/pot-2.jpg",
+        "image": "images/pot-2.jpg.png",
         "description": "Handcrafted clay pot with natural texture"
     },
     {
@@ -23,7 +23,7 @@
         "code": "POT-003",
         "dimensions": "7\" x 6\"",
         "price": "32.99",
-        "image": "images/pot-3.jpg",
+        "image": "images/pot-3.jpg.png",
         "description": "Modern ceramic pot for any bonsai style"
     },
     {
@@ -32,7 +32,7 @@
         "code": "POT-004",
         "dimensions": "8\" x 5\" x 3.5\"",
         "price": "28.99",
-        "image": "images/pot-4.jpg",
+        "image": "images/pot-4.jpg.png",
         "description": "Rectangular design ideal for formal styles"
     },
     {
@@ -41,7 +41,7 @@
         "code": "POT-005",
         "dimensions": "3.5\" x 3\"",
         "price": "14.99",
-        "image": "images/pot-5.jpg",
+        "image": "images/pot-5.jpg.png",
         "description": "Perfect for small shohin and mame trees"
     },
     {
@@ -50,7 +50,7 @@
         "code": "POT-006",
         "dimensions": "10\" x 8\"",
         "price": "45.99",
-        "image": "images/pot-6.jpg",
+        "image": "images/pot-6.jpg.png",
         "description": "Spacious pot suitable for larger specimens"
     },
     {
@@ -59,7 +59,7 @@
         "code": "POT-007",
         "dimensions": "6.5\" x 5.5\"",
         "price": "26.99",
-        "image": "images/pot-7.jpg",
+        "image": "images/pot-7.jpg.png",
         "description": "Elegant white ceramic with subtle details"
     },
     {
@@ -68,7 +68,7 @@
         "code": "POT-008",
         "dimensions": "5.5\" x 4.5\"",
         "price": "20.99",
-        "image": "images/pot-8.jpg",
+        "image": "images/pot-8.jpg.png",
         "description": "Rustic earthenware pot with classic appeal"
     },
     {
@@ -77,7 +77,7 @@
         "code": "POT-009",
         "dimensions": "7.5\" x 6.5\"",
         "price": "35.99",
-        "image": "images/pot-9.jpg",
+        "image": "images/pot-9.jpg.png",
         "description": "Premium glazed finish with protective coating"
     },
     {
@@ -86,7 +86,7 @@
         "code": "POT-010",
         "dimensions": "4\" x 3.5\"",
         "price": "16.99",
-        "image": "images/pot-10.jpg",
+        "image": "images/pot-10.jpg.png",
         "description": "Compact size for indoor display"
     },
     {
@@ -95,7 +95,7 @@
         "code": "POT-011",
         "dimensions": "9\" x 7\"",
         "price": "42.99",
-        "image": "images/pot-11.jpg",
+        "image": "images/pot-11.jpg.png",
         "description": "Deep pot ideal for large root systems"
     },
     {
@@ -104,7 +104,7 @@
         "code": "POT-012",
         "dimensions": "6\" x 6\"",
         "price": "27.99",
-        "image": "images/pot-12.jpg",
+        "image": "images/pot-12.jpg.png",
         "description": "Square design perfect for formal upright trees"
     },
     {
@@ -113,7 +113,7 @@
         "code": "POT-013",
         "dimensions": "5\" x 4\"",
         "price": "19.99",
-        "image": "images/pot-13.jpg",
+        "image": "images/pot-13.jpg.png",
         "description": "Lightweight ceramic ideal for travel"
     },
     {
@@ -122,7 +122,7 @@
         "code": "POT-014",
         "dimensions": "8\" x 6\" x 4\"",
         "price": "34.99",
-        "image": "images/pot-14.jpg",
+        "image": "images/pot-14.jpg.png",
         "description": "Shallow pot perfect for cascade styles"
     },
     {
@@ -131,7 +131,7 @@
         "code": "POT-015",
         "dimensions": "7\" x 5.5\"",
         "price": "29.99",
-        "image": "images/pot-15.jpg",
+        "image": "images/pot-15.jpg.png",
         "description": "Traditional Japanese design with authentic finish"
     },
     {
@@ -140,7 +140,7 @@
         "code": "POT-016",
         "dimensions": "4.5\" x 4\"",
         "price": "17.99",
-        "image": "images/pot-16.jpg",
+        "image": "images/pot-16.jpg.png",
         "description": "Oval shape provides excellent stability"
     },
     {
@@ -149,7 +149,7 @@
         "code": "POT-017",
         "dimensions": "9.5\" x 7.5\"",
         "price": "48.99",
-        "image": "images/pot-17.jpg",
+        "image": "images/pot-17.jpg.png",
         "description": "Extra large container for exhibition trees"
     },
     {
@@ -158,7 +158,7 @@
         "code": "POT-018",
         "dimensions": "5.5\" x 5\"",
         "price": "22.99",
-        "image": "images/pot-18.jpg",
+        "image": "images/pot-18.jpg.png",
         "description": "Round shape complements informal styles"
     },
     {
@@ -167,7 +167,7 @@
         "code": "POT-019",
         "dimensions": "6.5\" x 4.5\"",
         "price": "25.99",
-        "image": "images/pot-19.jpg",
+        "image": "images/pot-19.jpg.png",
         "description": "Rectangular with flowing curves"
     },
     {
@@ -176,7 +176,7 @@
         "code": "POT-020",
         "dimensions": "3.5\" x 2.5\"",
         "price": "12.99",
-        "image": "images/pot-20.jpg",
+        "image": "images/pot-20.jpg.png",
         "description": "Mini pot perfect for tiny bonsai"
     },
     {
@@ -185,7 +185,7 @@
         "code": "POT-021",
         "dimensions": "8.5\" x 6.5\"",
         "price": "39.99",
-        "image": "images/pot-21.jpg",
+        "image": "images/pot-21.jpg.png",
         "description": "Premium quality handmade by artisans"
     },
     {
@@ -194,7 +194,7 @@
         "code": "POT-022",
         "dimensions": "5\" x 5\"",
         "price": "21.99",
-        "image": "images/pot-22.jpg",
+        "image": "images/pot-22.jpg.png",
         "description": "Perfect balance of form and function"
     },
     {
@@ -203,7 +203,7 @@
         "code": "POT-023",
         "dimensions": "7\" x 5\"",
         "price": "30.99",
-        "image": "images/pot-23.jpg",
+        "image": "images/pot-23.jpg.png",
         "description": "Durable glazed surface resists weathering"
     },
     {
@@ -212,7 +212,7 @@
         "code": "POT-024",
         "dimensions": "6\" x 4.5\"",
         "price": "23.99",
-        "image": "images/pot-24.jpg",
+        "image": "images/pot-24.jpg.png",
         "description": "Versatile size suitable for most tree species"
     },
     {
@@ -221,7 +221,7 @@
         "code": "POT-025",
         "dimensions": "4.5\" x 3.5\"",
         "price": "15.99",
-        "image": "images/pot-25.jpg",
+        "image": "images/pot-25.jpg.png",
         "description": "Affordable quality for beginners"
     },
     {
@@ -230,7 +230,7 @@
         "code": "POT-026",
         "dimensions": "9\" x 6.5\"",
         "price": "44.99",
-        "image": "images/pot-26.jpg",
+        "image": "images/pot-26.jpg.png",
         "description": "Substantial container for mature trees"
     },
     {
@@ -239,7 +239,7 @@
         "code": "POT-027",
         "dimensions": "5.5\" x 5.5\"",
         "price": "24.99",
-        "image": "images/pot-27.jpg",
+        "image": "images/pot-27.jpg.png",
         "description": "Square design offers modern aesthetic"
     },
     {
@@ -248,7 +248,7 @@
         "code": "POT-028",
         "dimensions": "7.5\" x 5.5\"",
         "price": "33.99",
-        "image": "images/pot-28.jpg",
+        "image": "images/pot-28.jpg.png",
         "description": "Elongated shape ideal for slanting trees"
     },
     {
@@ -257,7 +257,7 @@
         "code": "POT-029",
         "dimensions": "6.5\" x 5\"",
         "price": "28.99",
-        "image": "images/pot-29.jpg",
+        "image": "images/pot-29.jpg.png",
         "description": "Multi-purpose pot for various styles"
     },
     {
@@ -266,7 +266,7 @@
         "code": "POT-030",
         "dimensions": "4\" x 4\"",
         "price": "14.99",
-        "image": "images/pot-30.jpg",
+        "image": "images/pot-30.jpg.png",
         "description": "Square compact design"
     },
     {
@@ -275,7 +275,7 @@
         "code": "POT-031",
         "dimensions": "8.5\" x 7\"",
         "price": "41.99",
-        "image": "images/pot-31.jpg",
+        "image": "images/pot-31.jpg.png",
         "description": "Large exhibition quality pot"
     },
     {
@@ -284,7 +284,7 @@
         "code": "POT-032",
         "dimensions": "5\" x 4.5\"",
         "price": "20.99",
-        "image": "images/pot-32.jpg",
+        "image": "images/pot-32.jpg.png",
         "description": "Standard size for most collectors"
     },
     {
@@ -293,7 +293,7 @@
         "code": "POT-033",
         "dimensions": "6\" x 5.5\"",
         "price": "26.99",
-        "image": "images/pot-33.jpg",
+        "image": "images/pot-33.jpg.png",
         "description": "Versatile rectangular with rounded edges"
     },
     {
@@ -302,7 +302,7 @@
         "code": "POT-034",
         "dimensions": "7\" x 6.5\"",
         "price": "31.99",
-        "image": "images/pot-34.jpg",
+        "image": "images/pot-34.jpg.png",
         "description": "Premium ceramic with fine glaze"
     },
     {
@@ -311,7 +311,7 @@
         "code": "POT-035",
         "dimensions": "5.5\" x 4\"",
         "price": "19.99",
-        "image": "images/pot-35.jpg",
+        "image": "images/pot-35.jpg.png",
         "description": "Classic oval shape"
     },
     {
@@ -320,7 +320,7 @@
         "code": "POT-036",
         "dimensions": "9\" x 7.5\"",
         "price": "46.99",
-        "image": "images/pot-36.jpg",
+        "image": "images/pot-36.jpg.png",
         "description": "Large format for specimen trees"
     },
     {
@@ -329,7 +329,7 @@
         "code": "POT-037",
         "dimensions": "6\" x 5\"",
         "price": "25.99",
-        "image": "images/pot-37.jpg",
+        "image": "images/pot-37.jpg.png",
         "description": "Timeless design with modern craftsmanship"
     },
     {
@@ -338,7 +338,7 @@
         "code": "POT-038",
         "dimensions": "4.5\" x 3.5\"",
         "price": "16.99",
-        "image": "images/pot-38.jpg",
+        "image": "images/pot-38.jpg.png",
         "description": "Petite pot for delicate bonsai"
     },
     {
@@ -347,7 +347,7 @@
         "code": "POT-039",
         "dimensions": "8\" x 6.5\"",
         "price": "37.99",
-        "image": "images/pot-39.jpg",
+        "image": "images/pot-39.jpg.png",
         "description": "Professional grade container"
     },
     {
@@ -356,7 +356,7 @@
         "code": "POT-040",
         "dimensions": "5\" x 5.5\"",
         "price": "23.99",
-        "image": "images/pot-40.jpg",
+        "image": "images/pot-40.jpg.png",
         "description": "Slightly rectangular round shape"
     },
     {
@@ -365,7 +365,7 @@
         "code": "POT-041",
         "dimensions": "7.5\" x 6\"",
         "price": "32.99",
-        "image": "images/pot-41.jpg",
+        "image": "images/pot-41.jpg.png",
         "description": "Sophisticated design for collectors"
     },
     {
@@ -374,7 +374,7 @@
         "code": "POT-042",
         "dimensions": "6.5\" x 4\"",
         "price": "27.99",
-        "image": "images/pot-42.jpg",
+        "image": "images/pot-42.jpg.png",
         "description": "Elongated rectangular classic style"
     },
     {
@@ -383,7 +383,7 @@
         "code": "POT-043",
         "dimensions": "5.5\" x 5.5\"",
         "price": "22.99",
-        "image": "images/pot-43.jpg",
+        "image": "images/pot-43.jpg.png",
         "description": "Versatile square pot for any occasion"
     }
 ]
