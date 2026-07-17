@@ -1,389 +1,389 @@
 [
-    {
-        "id": 1,
-        "name": "Bonsai Pot 1",
-        "code": "W66",
-        "dimensions": "96mm x 30mm",
-        "price": "60",
-        "image": "images/pot-1.jpg.png",
-        "description": "Classic bonsai pot with glazed finish"
-    },
-    {
-        "id": 2,
-        "name": "Bonsai Pot 2",
-        "code": "W68",
-        "dimensions": "59mm x 76mm",
-        "price": "60",
-        "image": "images/pot-2.jpg.png",
-        "description": "Handcrafted clay pot with natural texture"
-    },
-    {
-        "id": 3,
-        "name": "Bonsai Pot 3",
-        "code": "W70",
-        "dimensions": "70mm x 69mm",
-        "price": "60",
-        "image": "images/pot-3.jpg.png",
-        "description": "Modern ceramic pot for any bonsai style"
-    },
-    {
-        "id": 4,
-        "name": "Bonsai Pot 4",
-        "code": "W71",
-        "dimensions": "72mm x 70mm",
-        "price": "60",
-        "image": "images/pot-4.jpg.png",
-        "description": "Rectangular design ideal for formal styles"
-    },
-    {
-        "id": 5,
-        "name": "Bonsai Pot 5",
-        "code": "W72",
-        "dimensions": "56mm x 83mm",
-        "price": "60",
-        "image": "images/pot-5.jpg.png",
-        "description": "Perfect for small shohin and mame trees"
-    },
-    {
-        "id": 6,
-        "name": "Bonsai Pot 6",
-        "code": "W75",
-        "dimensions": "70mm x 75mm",
-        "price": "65",
-        "image": "images/pot-6.jpg.png",
-        "description": "Spacious pot suitable for larger specimens"
-    },
-    {
-        "id": 7,
-        "name": "Bonsai Pot 7",
-        "code": "W73",
-        "dimensions": "64mm x 72mm",
-        "price": "65",
-        "image": "images/pot-7.jpg.png",
-        "description": "Elegant white ceramic with subtle details"
-    },
-    {
-        "id": 8,
-        "name": "Bonsai Pot 8",
-        "code": "W74",
-        "dimensions": "59mm x 79mm",
-        "price": "65",
-        "image": "images/pot-8.jpg.png",
-        "description": "Rustic earthenware pot with classic appeal"
-    },
-    {
-        "id": 9,
-        "name": "Bonsai Pot 9",
-        "code": "W78",
-        "dimensions": "78mm x 67mm",
-        "price": "65",
-        "image": "images/pot-9.jpg.png",
-        "description": "Premium glazed finish with protective coating"
-    },
-    {
-        "id": 10,
-        "name": "Bonsai Pot 10",
-        "code": "W80",
-        "dimensions": "84mm x 87mm",
-        "price": "70",
-        "image": "images/pot-10.jpg.png",
-        "description": "Compact size for indoor display"
-    },
-    {
-        "id": 11,
-        "name": "Bonsai Pot 11",
-        "code": "W77",
-        "dimensions": "75mm x 75mm",
-        "price": "65",
-        "image": "images/pot-11.jpg.png",
-        "description": "Deep pot ideal for large root systems"
-    },
-    {
-        "id": 12,
-        "name": "Bonsai Pot 12",
-        "code": "W81",
-        "dimensions": "76mm x 88mm",
-        "price": "70",
-        "image": "images/pot-12.jpg.png",
-        "description": "Square design perfect for formal upright trees"
-    },
-    {
-        "id": 13,
-        "name": "Bonsai Pot 13",
-        "code": "W79",
-        "dimensions": "72mm x 96mm",
-        "price": "65",
-        "image": "images/pot-13.jpg.png",
-        "description": "Lightweight ceramic ideal for travel"
-    },
-    {
-        "id": 14,
-        "name": "Bonsai Pot 14",
-        "code": "W62",
-        "dimensions": "42mm x 79mm",
-        "price": "60",
-        "image": "images/pot-14.jpg.png",
-        "description": "Shallow pot perfect for cascade styles"
-    },
-    {
-        "id": 15,
-        "name": "Bonsai Pot 15",
-        "code": "W87",
-        "dimensions": "34mm x 112mm",
-        "price": "65",
-        "image": "images/pot-15.jpg.png",
-        "description": "Traditional Japanese design with authentic finish"
-    },
-    {
-        "id": 16,
-        "name": "Bonsai Pot 16",
-        "code": "W84",
-        "dimensions": "44mm x 98mm",
-        "price": "65",
-        "image": "images/pot-16.jpg.png",
-        "description": "Oval shape provides excellent stability"
-    },
-    {
-        "id": 17,
-        "name": "Bonsai Pot 17",
-        "code": "W83",
-        "dimensions": "47mm x 94mm",
-        "price": "65",
-        "image": "images/pot-17.jpg.png",
-        "description": "Extra large container for exhibition trees"
-    },
-    {
-        "id": 18,
-        "name": "Bonsai Pot 18",
-        "code": "W89",
-        "dimensions": "53mm x 110mm",
-        "price": "70",
-        "image": "images/pot-18.jpg.png",
-        "description": "Round shape complements informal styles"
-    },
-    {
-        "id": 19,
-        "name": "Bonsai Pot 19",
-        "code": "W88",
-        "dimensions": "50mm x 105mm",
-        "price": "65",
-        "image": "images/pot-19.jpg.png",
-        "description": "Rectangular with flowing curves"
-    },
-    {
-        "id": 20,
-        "name": "Bonsai Pot 20",
-        "code": "W93",
-        "dimensions": "85mm x 87mm",
-        "price": "70",
-        "image": "images/pot-20.jpg.png",
-        "description": "Mini pot perfect for tiny bonsai"
-    },
-    {
-        "id": 21,
-        "name": "Bonsai Pot 21",
-        "code": "W91",
-        "dimensions": "32mm x 132mm",
-        "price": "70",
-        "image": "images/pot-21.jpg.png",
-        "description": "Premium quality handmade by artisans"
-    },
-    {
-        "id": 22,
-        "name": "Bonsai Pot 22",
-        "code": "W101",
-        "dimensions": "58mm x 114mm",
-        "price": "75",
-        "image": "images/pot-22.jpg.png",
-        "description": "Perfect balance of form and function"
-    },
-    {
-        "id": 23,
-        "name": "Bonsai Pot 23",
-        "code": "W95",
-        "dimensions": "55mm x 97mm",
-        "price": "65",
-        "image": "images/pot-23.jpg.png",
-        "description": "Durable glazed surface resists weathering"
-    },
-    {
-        "id": 24,
-        "name": "Bonsai Pot 24",
-        "code": "W94",
-        "dimensions": "47mm x 105mm",
-        "price": "65",
-        "image": "images/pot-24.jpg.png",
-        "description": "Versatile size suitable for most tree species"
-    },
-    {
-        "id": 25,
-        "name": "Bonsai Pot 25",
-        "code": "W102",
-        "dimensions": "99mm x 93mm",
-        "price": "75",
-        "image": "images/pot-25.jpg.png",
-        "description": "Affordable quality for beginners"
-    },
-    {
-        "id": 26,
-        "name": "Bonsai Pot 26",
-        "code": "W100",
-        "dimensions": "82mm x 73mm",
-        "price": "70",
-        "image": "images/pot-26.jpg.png",
-        "description": "Substantial container for mature trees"
-    },
-    {
-        "id": 27,
-        "name": "Bonsai Pot 27",
-        "code": "W112",
-        "dimensions": "44mm x 120mm",
-        "price": "70",
-        "image": "images/pot-27.jpg.png",
-        "description": "Square design offers modern aesthetic"
-    },
-    {
-        "id": 28,
-        "name": "Bonsai Pot 28",
-        "code": "W116",
-        "dimensions": "155mm x 117mm",
-        "price": "80",
-        "image": "images/pot-28.jpg.png",
-        "description": "Elongated shape ideal for slanting trees"
-    },
-    {
-        "id": 29,
-        "name": "Bonsai Pot 29",
-        "code": "W114",
-        "dimensions": "61mm x 116mm",
-        "price": "80",
-        "image": "images/pot-29.jpg.png",
-        "description": "Multi-purpose pot for various styles"
-    },
-    {
-        "id": 30,
-        "name": "Bonsai Pot 30",
-        "code": "W115",
-        "dimensions": "66mm x 122mm",
-        "price": "80",
-        "image": "images/pot-30.jpg.png",
-        "description": "Square compact design"
-    },
-    {
-        "id": 31,
-        "name": "Bonsai Pot 31",
-        "code": "W117",
-        "dimensions": "53mm x 14mm",
-        "price": "85",
-        "image": "images/pot-31.jpg.png",
-        "description": "Large exhibition quality pot"
-    },
-    {
-        "id": 32,
-        "name": "Bonsai Pot 32",
-        "code": "W118",
-        "dimensions": "87mm x 122mm",
-        "price": "90",
-        "image": "images/pot-32.jpg.png",
-        "description": "Standard size for most collectors"
-    },
-    {
-        "id": 33,
-        "name": "Bonsai Pot 33",
-        "code": "W99",
-        "dimensions": "55mm x 92mm",
-        "price": "70",
-        "image": "images/pot-33.jpg.png",
-        "description": "Versatile rectangular with rounded edges"
-    },
-    {
-        "id": 34,
-        "name": "Bonsai Pot 34",
-        "code": "W121",
-        "dimensions": "42mm x 210mm",
-        "price": "190",
-        "image": "images/pot-34.jpg.png",
-        "description": "Premium ceramic with fine glaze"
-    },
-    {
-        "id": 35,
-        "name": "Bonsai Pot 35",
-        "code": "W120",
-        "dimensions": "93mm x 125mm",
-        "price": "95",
-        "image": "images/pot-35.jpg.png",
-        "description": "Classic oval shape"
-    },
-    {
-        "id": 36,
-        "name": "Bonsai Pot 36",
-        "code": "W119",
-        "dimensions": "73mm x 127mm",
-        "price": "95",
-        "image": "images/pot-36.jpg.png",
-        "description": "Large format for specimen trees"
-    },
-    {
-        "id": 37,
-        "name": "Bonsai Pot 37",
-        "code": "W107",
-        "dimensions": "69mm x 98mm",
-        "price": "75",
-        "image": "images/pot-37.jpg.png",
-        "description": "Timeless design with modern craftsmanship"
-    },
-    {
-        "id": 38,
-        "name": "Bonsai Pot 38",
-        "code": "W106",
-        "dimensions": "69mm x 97mm",
-        "price": "75",
-        "image": "images/pot-38.jpg.png",
-        "description": "Petite pot for delicate bonsai"
-    },
-    {
-        "id": 39,
-        "name": "Bonsai Pot 39",
-        "code": "W113",
-        "dimensions": "47mm x 125mm",
-        "price": "75",
-        "image": "images/pot-39.jpg.png",
-        "description": "Professional grade container"
-    },
-    {
-        "id": 40,
-        "name": "Bonsai Pot 40",
-        "code": "W110",
-        "dimensions": "51mm x 121mm",
-        "price": "70",
-        "image": "images/pot-40.jpg.png",
-        "description": "Slightly rectangular round shape"
-    },
-    {
-        "id": 41,
-        "name": "Bonsai Pot 41",
-        "code": "W109",
-        "dimensions": "69mm x 87mm",
-        "price": "75",
-        "image": "images/pot-41.jpg.png",
-        "description": "Sophisticated design for collectors"
-    },
-    {
-        "id": 42,
-        "name": "Bonsai Pot 42",
-        "code": "W108",
-        "dimensions": "56mm x 86mm",
-        "price": "70",
-        "image": "images/pot-42.jpg.png",
-        "description": "Elongated rectangular classic style"
-    },
-    {
-        "id": 43,
-        "name": "Bonsai Pot 43",
-        "code": "W105",
-        "dimensions": "50mm x 115mm",
-        "price": "70",
-        "image": "images/pot-43.jpg.png",
-        "description": "Versatile square pot for any occasion"
-    }
+  {
+    "id": 1,
+    "name": "Bonsai Pot 1",
+    "code": "W66",
+    "dimensions": "96mm x 30mm",
+    "price": "60",
+    "image": "images/pot-1.jpg.png",
+    "description": "Classic bonsai pot with glazed finish"
+  },
+  {
+    "id": 2,
+    "name": "Bonsai Pot 2",
+    "code": "W68",
+    "dimensions": "59mm x 76mm",
+    "price": "60",
+    "image": "images/pot-2.jpg.png",
+    "description": "Handcrafted clay pot with natural texture"
+  },
+  {
+    "id": 3,
+    "name": "Bonsai Pot 3",
+    "code": "W70",
+    "dimensions": "70mm x 69mm",
+    "price": "60",
+    "image": "images/pot-3.jpg.png",
+    "description": "Modern ceramic pot for any bonsai style"
+  },
+  {
+    "id": 4,
+    "name": "Bonsai Pot 4",
+    "code": "W71",
+    "dimensions": "72mm x 70mm",
+    "price": "60",
+    "image": "images/pot-4.jpg.png",
+    "description": "Rectangular design ideal for formal styles"
+  },
+  {
+    "id": 5,
+    "name": "Bonsai Pot 5",
+    "code": "W72",
+    "dimensions": "56mm x 83mm",
+    "price": "60",
+    "image": "images/pot-5.jpg.png",
+    "description": "Perfect for small shohin and mame trees"
+  },
+  {
+    "id": 6,
+    "name": "Bonsai Pot 6",
+    "code": "W75",
+    "dimensions": "70mm x 75mm",
+    "price": "65",
+    "image": "images/pot-6.jpg.png",
+    "description": "Spacious pot suitable for larger specimens"
+  },
+  {
+    "id": 7,
+    "name": "Bonsai Pot 7",
+    "code": "W73",
+    "dimensions": "64mm x 72mm",
+    "price": "65",
+    "image": "images/pot-7.jpg.png",
+    "description": "Elegant white ceramic with subtle details"
+  },
+  {
+    "id": 8,
+    "name": "Bonsai Pot 8",
+    "code": "W74",
+    "dimensions": "59mm x 79mm",
+    "price": "65",
+    "image": "images/pot-8.jpg.png",
+    "description": "Rustic earthenware pot with classic appeal"
+  },
+  {
+    "id": 9,
+    "name": "Bonsai Pot 9",
+    "code": "W78",
+    "dimensions": "78mm x 67mm",
+    "price": "65",
+    "image": "images/pot-9.jpg.png",
+    "description": "Premium glazed finish with protective coating"
+  },
+  {
+    "id": 10,
+    "name": "Bonsai Pot 10",
+    "code": "W80",
+    "dimensions": "84mm x 87mm",
+    "price": "70",
+    "image": "images/pot-10.jpg.png",
+    "description": "Compact size for indoor display"
+  },
+  {
+    "id": 11,
+    "name": "Bonsai Pot 11",
+    "code": "W77",
+    "dimensions": "75mm x 75mm",
+    "price": "65",
+    "image": "images/pot-11.jpg.png",
+    "description": "Deep pot ideal for large root systems"
+  },
+  {
+    "id": 12,
+    "name": "Bonsai Pot 12",
+    "code": "W81",
+    "dimensions": "76mm x 88mm",
+    "price": "70",
+    "image": "images/pot-12.jpg.png",
+    "description": "Square design perfect for formal upright trees"
+  },
+  {
+    "id": 13,
+    "name": "Bonsai Pot 13",
+    "code": "W79",
+    "dimensions": "72mm x 96mm",
+    "price": "65",
+    "image": "images/pot-13.jpg.png",
+    "description": "Lightweight ceramic ideal for travel"
+  },
+  {
+    "id": 14,
+    "name": "Bonsai Pot 14",
+    "code": "W62",
+    "dimensions": "42mm x 79mm",
+    "price": "60",
+    "image": "images/pot-14.jpg.png",
+    "description": "Shallow pot perfect for cascade styles"
+  },
+  {
+    "id": 15,
+    "name": "Bonsai Pot 15",
+    "code": "W87",
+    "dimensions": "34mm x 112mm",
+    "price": "65",
+    "image": "images/pot-15.jpg.png",
+    "description": "Traditional Japanese design with authentic finish"
+  },
+  {
+    "id": 16,
+    "name": "Bonsai Pot 16",
+    "code": "W84",
+    "dimensions": "44mm x 98mm",
+    "price": "65",
+    "image": "images/pot-16.jpg.png",
+    "description": "Oval shape provides excellent stability"
+  },
+  {
+    "id": 17,
+    "name": "Bonsai Pot 17",
+    "code": "W83",
+    "dimensions": "47mm x 94mm",
+    "price": "65",
+    "image": "images/pot-17.jpg.png",
+    "description": "Extra large container for exhibition trees"
+  },
+  {
+    "id": 18,
+    "name": "Bonsai Pot 18",
+    "code": "W89",
+    "dimensions": "53mm x 110mm",
+    "price": "70",
+    "image": "images/pot-18.jpg.png",
+    "description": "Round shape complements informal styles"
+  },
+  {
+    "id": 19,
+    "name": "Bonsai Pot 19",
+    "code": "W88",
+    "dimensions": "50mm x 105mm",
+    "price": "65",
+    "image": "images/pot-19.jpg.png",
+    "description": "Rectangular with flowing curves"
+  },
+  {
+    "id": 20,
+    "name": "Bonsai Pot 20",
+    "code": "W93",
+    "dimensions": "85mm x 87mm",
+    "price": "70",
+    "image": "images/pot-20.jpg.png",
+    "description": "Mini pot perfect for tiny bonsai"
+  },
+  {
+    "id": 21,
+    "name": "Bonsai Pot 21",
+    "code": "W91",
+    "dimensions": "32mm x 132mm",
+    "price": "70",
+    "image": "images/pot-21.jpg.png",
+    "description": "Premium quality handmade by artisans"
+  },
+  {
+    "id": 22,
+    "name": "Bonsai Pot 22",
+    "code": "W101",
+    "dimensions": "58mm x 114mm",
+    "price": "75",
+    "image": "images/pot-22.jpg.png",
+    "description": "Perfect balance of form and function"
+  },
+  {
+    "id": 23,
+    "name": "Bonsai Pot 23",
+    "code": "W95",
+    "dimensions": "55mm x 97mm",
+    "price": "65",
+    "image": "images/pot-23.jpg.png",
+    "description": "Durable glazed surface resists weathering"
+  },
+  {
+    "id": 24,
+    "name": "Bonsai Pot 24",
+    "code": "W94",
+    "dimensions": "47mm x 105mm",
+    "price": "65",
+    "image": "images/pot-24.jpg.png",
+    "description": "Versatile size suitable for most tree species"
+  },
+  {
+    "id": 25,
+    "name": "Bonsai Pot 25",
+    "code": "W102",
+    "dimensions": "99mm x 93mm",
+    "price": "75",
+    "image": "images/pot-25.jpg.png",
+    "description": "Affordable quality for beginners"
+  },
+  {
+    "id": 26,
+    "name": "Bonsai Pot 26",
+    "code": "W100",
+    "dimensions": "82mm x 73mm",
+    "price": "70",
+    "image": "images/pot-26.jpg.png",
+    "description": "Substantial container for mature trees"
+  },
+  {
+    "id": 27,
+    "name": "Bonsai Pot 27",
+    "code": "W112",
+    "dimensions": "44mm x 120mm",
+    "price": "70",
+    "image": "images/pot-27.jpg.png",
+    "description": "Square design offers modern aesthetic"
+  },
+  {
+    "id": 28,
+    "name": "Bonsai Pot 28",
+    "code": "W116",
+    "dimensions": "155mm x 117mm",
+    "price": "80",
+    "image": "images/pot-28.jpg.png",
+    "description": "Elongated shape ideal for slanting trees"
+  },
+  {
+    "id": 29,
+    "name": "Bonsai Pot 29",
+    "code": "W114",
+    "dimensions": "61mm x 116mm",
+    "price": "80",
+    "image": "images/pot-29.jpg.png",
+    "description": "Multi-purpose pot for various styles"
+  },
+  {
+    "id": 30,
+    "name": "Bonsai Pot 30",
+    "code": "W115",
+    "dimensions": "66mm x 122mm",
+    "price": "80",
+    "image": "images/pot-30.jpg.png",
+    "description": "Square compact design"
+  },
+  {
+    "id": 31,
+    "name": "Bonsai Pot 31",
+    "code": "W117",
+    "dimensions": "53mm x 14mm",
+    "price": "85",
+    "image": "images/pot-31.jpg.png",
+    "description": "Large exhibition quality pot"
+  },
+  {
+    "id": 32,
+    "name": "Bonsai Pot 32",
+    "code": "W118",
+    "dimensions": "87mm x 122mm",
+    "price": "90",
+    "image": "images/pot-32.jpg.png",
+    "description": "Standard size for most collectors"
+  },
+  {
+    "id": 33,
+    "name": "Bonsai Pot 33",
+    "code": "W99",
+    "dimensions": "55mm x 92mm",
+    "price": "70",
+    "image": "images/pot-33.jpg.png",
+    "description": "Versatile rectangular with rounded edges"
+  },
+  {
+    "id": 34,
+    "name": "Bonsai Pot 34",
+    "code": "W121",
+    "dimensions": "42mm x 210mm",
+    "price": "190",
+    "image": "images/pot-34.jpg.png",
+    "description": "Premium ceramic with fine glaze"
+  },
+  {
+    "id": 35,
+    "name": "Bonsai Pot 35",
+    "code": "W120",
+    "dimensions": "93mm x 125mm",
+    "price": "95",
+    "image": "images/pot-35.jpg.png",
+    "description": "Classic oval shape"
+  },
+  {
+    "id": 36,
+    "name": "Bonsai Pot 36",
+    "code": "W119",
+    "dimensions": "73mm x 127mm",
+    "price": "95",
+    "image": "images/pot-36.jpg.png",
+    "description": "Large format for specimen trees"
+  },
+  {
+    "id": 37,
+    "name": "Bonsai Pot 37",
+    "code": "W107",
+    "dimensions": "69mm x 98mm",
+    "price": "75",
+    "image": "images/pot-37.jpg.png",
+    "description": "Timeless design with modern craftsmanship"
+  },
+  {
+    "id": 38,
+    "name": "Bonsai Pot 38",
+    "code": "W106",
+    "dimensions": "69mm x 97mm",
+    "price": "75",
+    "image": "images/pot-38.jpg.png",
+    "description": "Petite pot for delicate bonsai"
+  },
+  {
+    "id": 39,
+    "name": "Bonsai Pot 39",
+    "code": "W113",
+    "dimensions": "47mm x 125mm",
+    "price": "75",
+    "image": "images/pot-39.jpg.png",
+    "description": "Professional grade container"
+  },
+  {
+    "id": 40,
+    "name": "Bonsai Pot 40",
+    "code": "W110",
+    "dimensions": "51mm x 121mm",
+    "price": "70",
+    "image": "images/pot-40.jpg.png",
+    "description": "Slightly rectangular round shape"
+  },
+  {
+    "id": 41,
+    "name": "Bonsai Pot 41",
+    "code": "W109",
+    "dimensions": "69mm x 87mm",
+    "price": "75",
+    "image": "images/pot-41.jpg.png",
+    "description": "Sophisticated design for collectors"
+  },
+  {
+    "id": 42,
+    "name": "Bonsai Pot 42",
+    "code": "W108",
+    "dimensions": "56mm x 86mm",
+    "price": "70",
+    "image": "images/pot-42.jpg.png",
+    "description": "Elongated rectangular classic style"
+  },
+  {
+    "id": 43,
+    "name": "Bonsai Pot 43",
+    "code": "W105",
+    "dimensions": "50mm x 115mm",
+    "price": "70",
+    "image": "images/pot-43.jpg.png",
+    "description": "Versatile square pot for any occasion"
+  }
 ]
