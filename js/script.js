@@ -131,6 +131,13 @@ function createGalleryItem(pot, index) {
                 ${dimensionsDisplay}
                 <span class="pot-price">${formatPrice(pot.price)}</span>
             </div>
+            
+            <!-- Checkbox to select multiple pots -->
+            <label class="pot-select-container">
+                <input type="checkbox" class="pot-checkbox" data-code="${escapeHtml(pot.code)}" data-price="${escapeHtml(pot.price)}">
+                Select to inquire
+            </label>
+
             <a href="${whatsappUrl}" target="_blank" class="whatsapp-button">
                 💬 Inquire on WhatsApp
             </a>
@@ -164,3 +171,50 @@ function displayError(message) {
 
 // Initialize catalog when DOM is ready
 document.addEventListener('DOMContentLoaded', initializeCatalog);
+
+// ==========================================
+// WhatsApp Multiple Pots Inquiry Logic
+// ==========================================
+document.addEventListener('change', function(e) {
+    if (e.target.classList.contains('pot-checkbox')) {
+        updateWhatsAppBar();
+    }
+});
+
+function updateWhatsAppBar() {
+    const checkboxes = document.querySelectorAll('.pot-checkbox:checked');
+    const bar = document.getElementById('whatsapp-bar');
+    const countSpan = document.getElementById('selected-count');
+    
+    if (countSpan) {
+        countSpan.textContent = checkboxes.length;
+    }
+    
+    if (bar) {
+        if (checkboxes.length > 0) {
+            bar.classList.remove('hidden');
+        } else {
+            bar.classList.add('hidden');
+        }
+    }
+}
+
+// When user clicks the float button, build the message and open WhatsApp
+document.addEventListener('click', function(e) {
+    if (e.target && e.target.id === 'send-inquiry-btn' || e.target.closest('#send-inquiry-btn')) {
+        const checkboxes = document.querySelectorAll('.pot-checkbox:checked');
+        let selectedPots = [];
+        
+        checkboxes.forEach(cb => {
+            const code = cb.getAttribute('data-code');
+            const price = cb.getAttribute('data-price');
+            selectedPots.push(`- Code: ${code} (${formatPrice(price)})`);
+        });
+        
+        const baseMessage = "Hi! I am interested in inquiring about the following bonsai pots from your catalog:\n\n";
+        const potsList = selectedPots.join("\n");
+        const finalMessage = encodeURIComponent(baseMessage + potsList);
+        
+        window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${finalMessage}`, '_blank');
+    }
+});
