@@ -1,1 +1,39 @@
+name: Mark Pot as Sold
+on:
+  repository_dispatch:
+    types: [mark_sold]
 
+permissions:
+  contents: write
+
+jobs:
+  update-status:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Update Pot Status in JSON
+        run: |
+          POT_CODE="${{ github.event.client_payload.code }}"
+          echo "Marking pot $POT_CODE as sold..."
+          
+          node -e "
+            const fs = require('fs');
+            const data = JSON.parse(fs.readFileSync('data/pots.json', 'utf8'));
+            const updated = data.map(pot => {
+              if (pot.code === '$POT_CODE') {
+                return { ...pot, status: 'sold' };
+              }
+              return pot;
+            });
+            fs.writeFileSync('data/pots.json', JSON.stringify(updated, null, 2));
+          "
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add data/pots.json
+          git commit -m "Automated: Mark pot ${{ github.event.client_payload.code }} as sold" || exit 0
+          git push
