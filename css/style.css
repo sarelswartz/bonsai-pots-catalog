@@ -443,3 +443,57 @@ body {
     margin-bottom: 15px;
     display: inline-block;
 }
+/* Checkbox styling on cards */
+.pot-select-container {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.pot-checkbox {
+    width: 18px;
+    height: 18px;
+    accent-color: #2d5016; /* Matches your green theme */
+    cursor: pointer;
+}
+
+/* Floating WhatsApp Bar */
+.whatsapp-floating-bar {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-floating-bar.hidden {
+    bottom: -100px; /* Hides it off-screen when no pots are selected */
+    opacity: 0;
+}
+
+.whatsapp-btn {
+    background-color: #25D366; /* WhatsApp Green */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E;
+    transform: scale(1.05);
+}
